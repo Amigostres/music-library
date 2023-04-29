@@ -42,9 +42,10 @@ export default function ArtistView() {
 
     return (
         <div>
-            { artistData[0]?.artistName }
-            { navButtons() }
-            {renderAlbums}
+          { artistData[0]?.artistName }
+          { navButtons() }
+          {renderAlbums}
         </div>
-    )
+      );
+      
 }
